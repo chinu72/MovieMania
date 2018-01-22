@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+body,html
+{
+    overflow-x: hidden;
+}
+body
+{
+    font-family: Arial,helvetica,sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::-webkit-scrollbar
+{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #a6a6a6;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    
+}
+.header-area
+{
+    position: relative;
+}
+a:hover
+{
+    text-decoration: none;
+}
+h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*===========================
+	---navbar---
+===========================*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+    color:#6ac045;
+    text-decoration: none;
+}
+.navbar-default
+{
+   background-color: #1d1d1d; 
+    border-bottom: 1px solid #6ac045;
+}
+
+.navbar-header .navbar-brand
+{
+ color: #fff;
+text-decoration: none;
+font-family: Roboto;
+font-size: 25px;
+ padding: 20px;    
+}
+.navabr-default .navbar-brand:hover, .navbar-default .navabar-brand:focus
+{
+    text-decoration: none;
+    color: #6ac045;
+    font-family: Roboto;
+    
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.line
+{
+    margin: auto;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 30%;
+    background-color:#6ac045;
+}
+.search-area
+{
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#img-div
+{
+    position: absolute;
+   
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+}
+#color-div
+{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.search-area .search-title
+{
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    color: #FFF;
+    padding: 15px;
+    padding-top: 20Px;
+    font-family: Arimo;
+}
+.search-area .search-content label
+{
+    font-family: Arimo;
+    font-size: 25px;
+    color: #5a5a5a;
+}
+.error{
+    color: #FF0000;
+    font-size: 20px;
+}
+.search-area .search-content input[type=text]
+{
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    color: #FFF;
+    outline: none;
+    background-color: #282828;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.search-area .search-content input[type=submit]
+{
+    color: #FFF;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    margin-top: 5%;
+    font-family: Roboto;
+  background-color:rgb(105, 189, 68);
+
+}
+.search-area .search-content input[type=submit]:hover
+{
+    background-color:#5da93c;
+}
+.search-area .search-content
+{
+    margin-top: 5%;
+    margin-bottom:7%;    
+}
+.follow .section-header > h2
+{
+    color: #fff;
+}
+.followicons > a > i
+{
+    padding: 15px;
+    padding-top: 0;
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.followicons > a > .fa-twitter:hover
+{
+    color: #00aced;
+}
+.followicons > a > .fa-facebook:hover
+{
+    color: #3b5998;
+}
+.followicons > a > .fa-instagram:hover
+{
+    color: #bc2a8d;
+}
+.followicons > a > .fa-google-plus:hover
+{
+    color: #dd4b39;
+}
+.followicons > a > .fa-youtube:hover
+{
+    color: #bb0000;
+}
+.footer-text a:hover
+{
+    color: #e8491d;
+    text-decoration: none;
+}
+footer
+{
+border-top:1px solid #6ac045; 
+  padding:20px;
+padding-left: 0px;
+padding-right: 0px;    
+  color:#ffffff;
+  background-color:#1d1d1d;
+  text-align: center;    
+}
+@media only screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    .search-area .search-content
+    {
+    margin-top: 5%;    
+    }
+}
